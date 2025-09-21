@@ -1,0 +1,21 @@
+Push: To make changes made on local machine (Git) sync with remote (GitHub)
+Pull: To download files on remote (GitHub) into local machine (Git)
+Commit: To make changes permanent
+
+1) git status <fileName>
+
+
+Change in a file is known as MODIFIED (M)
+New file is known as UNTRACKED (U)
+
+So whenever a change in file/new file is added, you have to ADD.
+When you ADD using 'git add <fileName>', the status becomes ADDED (A)
+Once it's ADDED, our file status becomes STAGED
+After STAGED, we COMMIT and status becomes (UNCHANGED)
+
+2) git add <fileName>
+
+    note: 'git add .' The dot means all files in the directory to be added
+
+3) git commit -m "some message"
+
