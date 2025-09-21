@@ -29,3 +29,6 @@ to go one step back in directory/folder, 'cd ..'
 to create a folder, 'mkdir <fileName>'
 
 note: 'git add .' The dot means all files in the directory to be added
+
+
+I HAVE MADE NEW CHANGES
